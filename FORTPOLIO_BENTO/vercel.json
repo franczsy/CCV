@@ -3,14 +3,15 @@
   "name": "bento-fortpolio",
   "builds": [
     {
-      "src": "bento_fortpolio.html",
+      "src": "bento.html",
       "use": "@vercel/static"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "bento_fortpolio.html"
+      "dest": "bento.html"
     }
   ]
 }
+
