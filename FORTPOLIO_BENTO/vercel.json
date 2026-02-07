@@ -1,5 +1,16 @@
 {
-    "rewrites":[{
-        "source": "/(.*)", "destination": "bento_fortpolio.html"
-    }]
+  "version": 2,
+  "name": "bento-fortpolio",
+  "builds": [
+    {
+      "src": "bento_fortpolio.html",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "bento_fortpolio.html"
+    }
+  ]
 }
